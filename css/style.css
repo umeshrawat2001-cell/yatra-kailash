@@ -1,0 +1,1094 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* ----------navbar------------ */
+
+.navbar-toggler {
+    background-color: #d2702e !important;
+    color: #f7f7f7 !important;
+}
+
+.navbar-expand-lg .navbar-collapse {
+
+    padding-left: 90px;
+}
+
+
+.nav-link {
+    color: black !important;
+}
+
+.dropdown-menu {
+    --bs-dropdown-bg: white !important;
+    --bs-dropdown-link-hover-bg: none !important;
+    --bs-dropdown-link-hover-color: #d2702e !important;
+    --bs-dropdown-link-color: black !important;
+}
+
+
+.n-reg a {
+    background-color: #d2702e;
+    padding: 10px 15px;
+    color: white !important;
+}
+.n-reg {
+    padding-left: 291px !important;
+}
+
+@media (max-width: 900px){
+    .n-reg {
+        display: none;
+    }
+
+}
+
+
+#kal {
+    position: relative;
+    height: 750px;
+}
+
+#kal video {
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+.journey {
+    display: flex;
+    justify-content: center;
+}
+
+#bac {
+    background-color: #2d99e8;
+    padding: 20px;
+    font-size: 20px;
+    border-left: 5px solid #d2702e;
+    border-right: 5px solid #d2702e;
+    color: white;
+}
+
+.register {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #d2702e;
+    border: none;
+    color: white;
+}
+
+
+.form-pop div {
+    padding: 10px;
+}
+
+.form-pop button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid;
+}
+
+#submit {
+    background-color: #d2702e;
+    border: none;
+    color: white;
+    padding: 10px 0px;
+}
+
+
+.modal-content {
+    border: 5px solid #d2702e !important;
+}
+
+@media (max-width: 900px) {
+    #bac {
+        font-size: 12px;
+        padding: 5px 5px;
+    }
+
+    .register {
+        font-size: 12px;
+        font-weight: 300;
+        padding: 5px;
+        background-color: #d2702e;
+        border: none;
+        color: white;
+    }
+}
+
+
+/* adi-kailash yatra */
+
+.adi-pack {
+    text-align: center;
+}
+
+.adi-pack h2 {
+    font-size: 40px;
+    padding: 30px 0px;
+    font-weight: 700;
+}
+
+.adi-para h3 {
+    font-size: 23px;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.ad-im {
+    padding-top: 40px;
+}
+
+
+/* adi-kailash yatra package */
+
+.pac-tit h3 {
+    font-size: 40px;
+}
+
+.pac-tit {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.pac-tit h2 {
+    color: #d2702e;
+    font-size: 30px;
+    font-family: "Satisfy", cursive;
+}
+
+@media (max-width: 768px) {
+    .adi-pack h2 {
+        font-size: 30px;
+    }
+    .pac-tit h3 {
+        font-size: 30px;
+    }
+}
+
+
+
+.kai-card {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-top: 70px;
+}
+
+.car-bt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-title a {
+    color: black;
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    color: #ce1b22;
+
+}
+
+.car-bt a {
+    background-color: #d2702e;
+    color: white;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    border-color: #d2702e !important;
+}
+
+.car-bt button {
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: #d2702e !important;
+    border-color: #d2702e !important;
+}
+
+.day {
+    position: absolute;
+    padding-top: 140px;
+    padding-left: 15px;
+}
+
+.day p {
+    background-color: #d2702e !important;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* char-dham yatra package */
+
+.char-dham {
+    padding-top: 100px;
+}
+
+
+
+.tes-cad {
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 20px;
+    border: 0;
+
+}
+
+.tes-im {
+    max-width: 100px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+
+.testimonial {
+    background-color: #f7f7f7;
+    padding: 35px;
+    border-radius: 35px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.testimonial .card {
+    border: none !important;
+    background-color: #d2702e !important;
+    color: white !important;
+}
+
+.title {
+    padding-bottom: 25px;
+}
+
+.title h1 {
+    color: #d2702e;
+    font-weight: 400;
+    font-family: "Satisfy", cursive;
+}
+
+.title h3 {
+    font-size: 40px;
+}
+
+
+/* Quick Enquiry */
+
+.enquiry {
+    background-image: url(../img/address-bg.png);
+    background-position: center center;
+    width: 100%;
+    /* height: 462px; */
+    background-size: cover;
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+
+.qui-enq {
+    padding: 70px 0px 20px 0px;
+}
+
+.qui-enq h2 {
+    font-size: 40px;
+    color: white;
+}
+
+.enq-fom {
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.enq {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+}
+
+
+.enq button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 15px;
+    border: none;
+}
+
+.en-bt {
+    border: none;
+    padding: 7px 25px;
+    border-radius: 3px;
+}
+
+.en-bt:hover {
+    border: none;
+    padding: 7px 25px;
+    background-color: #d2702e;
+    color: white;
+}
+
+
+/*  Address */
+
+
+.loc i {
+    font-size: 100px;
+}
+
+.loc {
+    text-align: center;
+    position: relative;
+    top: -40px;
+}
+
+.location {
+    background-color: #d2702e;
+    padding-bottom: 25px;
+}
+
+.address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.email {
+    display: flex;
+}
+
+.email div:last-child {
+    text-align: left;
+    padding-left: 25px;
+    color: white;
+}
+
+/* --------------Testimonial--------- */
+
+@media (max-width: 768px) {
+    .title h3 {
+        font-size: 30px;
+    }
+}
+
+
+/* --------------footer--------- */
+
+.footer {
+    background-image: url(../img/footer-img.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding-top: 100px;
+    background-color: #04547e;
+    padding-bottom: 100px;
+}
+
+.footer-title h4 {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.foot-link ul {
+    padding-left: 0px;
+}
+
+.foot-link ul li {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.foot-link a {
+    text-decoration: none;
+    color: white;
+}
+
+/* .foot-link a:hover {
+        text-decoration: none;
+        color: #ce1b22;
+    } */
+.social-icon ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.social-icon a {
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.sec-foot p {
+    color: white;
+    padding: 20px 0px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.fo-lo {
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.social-icon {
+    padding-top: 20px;
+}
+
+
+
+/* ------ About us page------- */
+
+
+.about-us {
+    padding-bottom: 52px;
+}
+
+.abu-im {
+    
+    background-image: url(../img/about-img.jpeg);
+    background-color: rgb(176 168 168);
+    background-blend-mode: multiply;
+    height: 700px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 100%; */
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+
+
+
+.abu-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.abu-title h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.par-im img {
+    border-radius: 20px;
+}
+
+.par-im {
+    padding-top: 82px;
+}
+
+
+/* ------ Contact us page------- */
+
+/* .ba-con{
+    background-image: url(../img/pngwing.com.png);
+    
+} */
+
+.contact-us {
+    padding-bottom: 52px;
+}
+
+.con-im {
+    
+    background-image: url(../img/inner-page-header-1.jpg);
+    background-color: rgb(157 144 144);
+    background-blend-mode:multiply;
+    height: 700px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 100%; */
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+
+
+
+.con-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.con-title h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+/* .con-ne {
+    display: flex;
+} */
+
+.co-mi img{
+    width: 100%;
+    height: 100%;
+    max-height: 600px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+.con-fom {
+    padding-top: 40px;
+}
+
+.con-fom button, input, optgroup, select, textarea {
+   
+    padding: 15px;
+    border: none;
+    background-color: #efefef;
+}
+.con-fom form textarea {
+    resize: vertical;
+    height: 115px;
+}
+.co-bt {
+    font-weight: 600;
+    padding: 15px 41px !important;
+}
+.co-bt:hover {
+    color:white;
+    background-color: #ce1b22;
+}
+.con-fom form div {
+    padding-bottom: 15px;
+    padding-left: 50px;
+}
+
+.con-ne h2 {
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-family: "Satisfy", cursive;
+    color: #d2702e;
+}
+.location-co {
+    padding-top: 50px;
+    background-color: #d2702e;
+    padding-bottom: 25px;
+}
+
+/* @media (max-width: 992px) {
+    .con-fom form div {
+        padding-left: 0px!important;
+    }
+} */
+
+@media (max-width: 768px) {
+    .con-fom form div {
+        padding-left: 0px!important;
+    }
+}
+
+
+
+
+/* ----------- Adi Kailash Om Parvat Yatra Package---------- */
+
+.om-parvat {
+    padding-bottom: 52px;
+}
+
+.adi-parvat {
+    
+    background-image: url(../img/adi-kailash3.webp);
+    background-color: rgb(232 127 127);
+    background-blend-mode: multiply;
+    height: 700px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 100%; */
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+.om-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.om-title h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+@media (max-width: 768px) {
+    .om-parvat {
+        padding-bottom: 30px;
+    }
+    .om-title h1 {
+        color: white;
+        font-size: 29px!important;
+        font-weight: 900;
+    }
+    .om-box h2 {
+        font-size: 29px!important;
+        font-weight: 700;
+        padding-bottom: 16px!important;
+    }
+    .om-box1 h3 {
+        font-size: 28px!important;
+        font-weight: 700;
+        padding: 26px 0px!important;
+    }
+    .om-box2 h3 {
+        font-size: 27px!important;
+        font-weight: 700;
+        padding: 26px 0px!important;
+    }
+}
+
+.om-box h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.om-box1 h3 {
+    font-size: 34px;
+    font-weight: 700;
+    padding: 26px 0px;
+}
+.om-box2 h3 {
+    font-size: 34px;
+    font-weight: 700;
+    padding: 26px 0px;
+}
+
+.om-box3 {
+    padding-top: 55px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.card-title h4 {
+    font-size: 25px;
+}
+
+.om-bt {
+    text-decoration: none;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    background-color: #d2702e;
+    color: white;
+}
+.om-bt:hover {
+    background-color: transparent;
+    color: #d2702e;
+    border: 1px solid #d2702e;
+}
+
+
+/* ---------Char Dham Yatra-------- */
+
+.char-dha {
+    
+    background-image: url(../img/chardham.webp);
+    background-color:rgb(0, 0, 4);
+    height: 700px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 100%; */
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+
+/* -----------Adi Kailash Yatra EX Delhi-------- */
+
+.adi-delhi {
+    padding-bottom: 52px;
+}
+
+.adi-parvat-delhi {
+    
+    background-image: url(../img/adi-kailash2.webp);
+    background-color: rgb(143 143 143);
+    background-blend-mode: multiply;
+    height: 700px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 100%; */
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+.delhi-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.delhi-title h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+
+.delhi-title p {
+    color: white;
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    max-width: 200px;
+    margin: 0 auto;
+    background-color: #d2702e;
+    padding: 7px 10px;
+    border-radius: 6px;
+}
+
+.ex-im-dl img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    max-height: 700px;
+}
+
+.dl-box h2 {
+    font-size: 40px;
+    padding-bottom: 32px;
+}
+
+@media (max-width: 768px) {
+
+    .delhi-title h1{
+        font-size: 33px;
+    }
+    .dl-box h2 {
+        font-size: 32px;
+        padding-bottom: 0px;
+    }
+    .adi-delhi {
+        padding-bottom: 30px;
+    }
+
+}
+
+.iti-dl {
+    display: flex;
+}
+.iti-dl div:first-child {
+    background-color: #d2702e;
+    padding: 10px;
+    width: 55px;
+    height: 55px;
+    line-height: 17px;
+    font-weight: 900;
+    border-radius: 50%;
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+}
+
+.iti-dl div:last-child{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.iti-dl div h4:last-child{
+    font-weight: 700;
+}
+
+.dil-day {
+    border-radius: 12px;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 20px;
+    margin-top: 55px!important;
+}
+.li-iti {
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.iti-dll {
+    width: 83%;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .li-iti {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+    .iti-dl h4{
+        font-size: 17px;
+    }
+    .iti-dll {
+        width: 100%;
+    }
+
+}
+
+.end-not{
+    border-radius: 12px;
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 20px;
+    margin-top: 55px!important;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+
+}
+/* .end-not a button {
+    border: none;
+    background-color: #ce1b22;
+    color: white;
+} */
+
+button.Book.Now {
+    border: none;
+    background-color: unset;
+    color: white;
+}
+
+
+.end-not a {
+    text-decoration: none;
+    padding: 8px 30px;
+    border-radius: 20px;
+    background-color: #d2702e;
+    color: white;
+}
+
+
+/* ------ Kailash Mansarovar Yatra----- */
+
+.kailash-yatra {
+    padding-bottom: 52px;
+}
+
+.yatra-kailash {
+    
+    background-image: url(../img/Kailash\ Mansarovar.jpg);
+    background-color: rgb(137 95 95);
+    background-blend-mode: multiply;
+    height: 700px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* height: 100%; */
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+.kailash-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.kailash-title h1 {
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.mount-kai img {
+    border-radius: 30px;
+}
+
+.mount-box1 h3 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.mount-box1 {
+    padding-top: 85px;
+}
+.mount-box2 h3 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.mount-box2 {
+    padding-top: 30px;
+}
+
+.min-mount1 {
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    background-color: #d2702e;
+}
+.min-mount1 h3 {
+    padding-bottom: 10px;
+}
+.min-mount1 p{
+    color: white;
+}
+.mount-box4 {
+    padding-top: 50px;
+}
+.min-mount1 ul li {
+    color: white;
+}
+
+.mount-box3 {
+    padding-top: 91px;
+}
+.min-mount3 {
+    padding-top: 52px;
+}
+.min-mount3 img {
+    width: 100%;
+    height: 954px;
+}
+.min-mount2 h3 {
+    padding-bottom: 10px;
+    font-size: 33px;
+}
+.min-mount2 h6 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.mount-box4 img {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .kailash-title h1 {
+        font-size: 33px;
+    }
+    .kailash-yatra {
+        padding-bottom: 10px;
+    }
+    .mount-box1 h3 {
+        font-size: 30px;
+    }
+    .mount-box1 {
+        padding-top: 60px;
+    }
+    .min-mount1 {
+        margin-bottom: 20px;
+    }
+    .mount-box3 {
+        padding-top: 55px;
+    }
+    .min-mount3 img {
+        width: 100%;
+        height: 100%;
+    }
+    .min-mount2 h3 {
+        font-size: 30px;
+    }
+}
+
+
+/* ------------Blog------------- */
+
+.blog-box{
+    display: flex;
+   
+    padding-bottom:50px ;
+}
+
+.blo-bt {
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: #d2702e;
+    color: white;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px){
+
+.box-blo .card{
+    width: 20rem !important;
+    margin-bottom: 20px;
+}
+.blog-box{
+    display: flex;
+    flex-direction: column;
+    padding-bottom:50px ;
+}
+
+}
